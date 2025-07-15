@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+}
+
+
+body{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+h1{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 100px;
+}
+
+#hero{
+    height: 100vh;
+    background-image: url('./assets/hero.jpg');
+}
+
+h1, h2, h3 {
+  color: #370d0d;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+ul{
+  padding-left: 1rem;
+}
+
+#hero p{
+    font-size: 50px;
+    font-weight: 300;
+    color: burlywood;
+}
+
+#about img {
+  border: 2px solid #370d0d;
+}
+
+#about .row {
+    width: -webkit-fill-available;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+#about span {
+    font-size: 2rem;
+    color: #cbf5f6;
+    text-shadow: 2px 2px #370d0d;
+}
+
+#about .container {
+  gap: 1rem;
+}
+
+#footer {
+  background-color: #cbf5f6;
+}
+
+#footer .nav-link, #footer p {
+  color: #370d0d !important;
+}
+
+@media (max-width: 1199px) {
+  #hero{
+    background-image: url('./assets/hero_abstract.jpg');
+    height: 50vh;
+  }
+}
+
+@media (max-width: 575px) {
+  #about p{
+    font-size: 2rem;
+  }
+}
